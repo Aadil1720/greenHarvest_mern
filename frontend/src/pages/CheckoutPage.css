@@ -1,0 +1,123 @@
+/* Container Styling */
+.checkout-page {
+    background: url('/images/bb.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 50px 0; /* Add padding to create space for the content */
+    min-height: 100vh; /* Ensure the section covers the full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .buyNow-checkout-page {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background for readability */
+    padding: 30px;
+    min-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* Heading Styling */
+  .buyNow-checkout-page h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Order Summary Section */
+  .buyNow-checkout-summary {
+    background: #f7f9fc;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    color: #555;
+  }
+  
+  .buyNow-checkout-summary h3 {
+    font-size: 1.5em;
+    color: #4a90e2;
+    margin-bottom: 15px;
+  }
+  
+  .buyNow-checkout-summary ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .buyNow-checkout-summary li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .buyNow-checkout-summary li span {
+    font-size: 1em;
+  }
+  
+  /* Total Amount */
+  .buyNow-total-amount {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  /* Completion Message Styling */
+  .buyNow-checkout-completion h3 {
+    color: #4caf50;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .buyNow-checkout-completion p {
+    font-size: 1.1em;
+    color: #666;
+  }
+  
+  /* Button Styling */
+  .buyNow-btn,
+  .buyNow-checkout-btn{
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: green;
+    color: #ffffff;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buyNow-btn:hover,
+  .buyNow-checkout-btn:hover {
+    background-color: green;
+  }
+  
+  .buyNow-checkout-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .buyNow-checkout-page {
+      padding: 20px;
+      margin: 20px;
+    }
+  
+    .buyNow-checkout-summary {
+      padding: 15px;
+    }
+  
+    .buyNow-btn,
+    .buyNow-checkout-btn,
+    .btn {
+      width: 100%;
+    }
+  }
+  

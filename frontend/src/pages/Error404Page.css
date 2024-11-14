@@ -1,0 +1,59 @@
+/* Error404Page.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;&display=swap');
+
+.error-page {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-image: url('images/bb.jpg'); /* Replace with a URL or local path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family:'Poppins';
+    color: #333; /* Replace with theme colors */
+  }
+  
+ .error-page .error-content {
+    background-color: rgba(255, 255, 255, 0.8); /* Light overlay for readability */
+    padding: 2.5rem;
+    border-radius: 10px;
+    max-width: 450px;
+  }
+  .error-content img{
+    border-radius: 5%;
+    width: 100%;
+  }
+  
+.error-content .error-title {
+    font-size: 2.4rem;
+    color: #ff4a4a; /* Adjust to your theme color */
+    margin-bottom: 10px;
+  }
+  
+.error-content .error-message {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #666; /* Adjust to your theme */
+    margin-bottom: 20px;
+  }
+  
+  .error-content .home-button {
+    padding: 10px 20px;
+    background-color: #ff2c2c; /* Adjust to your theme */
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+.error-content .home-button:hover {
+    background-color: green; /* Slightly darker on hover */
+  }
+  
