@@ -1,7 +1,6 @@
 # Green Harvest MERN Application
 
-This is a full-stack application built with the MERN stack (MongoDB, Express, React, Node.js). The project provides a platform to manage products, categories, and farmers for a green harvest application.
-
+This is a full-stack application built with the MERN stack (MongoDB, Express, React, Node.js).
 ## Getting Started
 
 Follow these steps to set up and run the project on your local machine.
