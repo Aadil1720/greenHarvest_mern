@@ -39,4 +39,5 @@ Ensure that the frontend is correctly pointing to the backend API. In your front
 const API_URL = "http://localhost:5000";  // or wherever your backend is running
 
 3.4. Run the Frontend Development Server
-npm start
+npm run dev
+
